@@ -1,0 +1,125 @@
+[
+    {
+        "content": "### What\u2019s the Big Deal With Energy?\n\nWe all hear the word *energy* and smile \u2013 it\u2019s the buzzword behind the lights flicking on, the coffee steaming in our mugs, and the humming buzz of a phone. But in physics, energy is a bit of a diva: it wants to be conserved, it has to be accounted for in every move, and it sometimes plays tricks on us. Imagine a rolling ball on a slope. The ball\u2019s *kinetic* energy turns into *potential* energy at the peak, and then back into kinetic energy when it slides down. That seamless back\u2011and\u2011forth? Classic energy conversation.\n\nBut let\u2019s not get too wrapped up in one single concept. Energy connects to *force*, *mass*, *speed*, *light*, *heat*, and *time* \u2013 all of which are the backbone of everyday physics that make our gadgets tick.\n\n---\n\n### Speedy Stories: From Galilean Dreams to Relativistic Reality\n\nWho can forget Sir Isaac Newton\u2019s *law of inertia*? It tells us that a mass (think of a marble) stays at rest until a *force* nudges it. Now twist that idea: when that force is strong enough to push the marble to *speed* close to light, we\u2019re in the territory of *relativistic* effects. Suddenly, time slows, mass seems to grow, and everything feels off. Those are the same principles that keep satellites like GPS on track \u2013 they adjust for time dilation with high precision.\n\nEven the everyday *gravity* we feel each day is a result of spacetime telling mass how to move. And when that movement is a bit more exotic, we talk about *quantum* fluctuations that can temporarily pop a particle out of the vacuum \u2013 a phenomenon called *tunneling*.\n\n---\n\n### Dance of Waves and Particles: The Duality Party\n\nOne of physics\u2019 most eye\u2011popping revelations is that light, for example, can behave both as a *wave* and as a *particle*, a behavior known as *wave\u2011particle duality*. Picture a crowd at a concert: the crowd\u2019s motion is like a wave, but each individual is a particle. When we zoom in, we see electrons exhibit a similar dual nature.\n\nDuring experiments, these particles can sometimes become *entangled*, meaning the state of one instantly affects the state of its partner, no matter the distance. It\u2019s like a twinned pair of socks: if one is red, so is the other, regardless of how far apart they are. In real experiments, this entanglement is measured through *coherence*\u2014a fancy way to say the particles stay in sync.\n\nThe moment this coherence is broken, you get *decoherence*. That\u2019s why we rarely see macroscopic objects in a quantum superposition. Speaking of which, a *superposition* is exactly that: a probability cloud where something could be in multiple places at once.\n\n---\n\n### From Subatomic Bounces to the Breath of the Cosmos\n\nIn the depths of the atom, *density* and *inertia* define how charged particles dance around the nucleus. The strong force, or the *nucleus* pulling nucleons together, is a complex interplay that can be understood through *hyperfine* interactions \u2013 small energy shifts due to quantum magnetic interactions.\n\nIf we lift our gaze beyond Earth, the cosmic tapestry is threaded with *topological* phenomena\u2014features that remain stable no matter how you pinch or stretch the material. The physics of such topological states have become vital in materials science and condensed matter physics.\n\n---\n\n### The Hyper\u2011Tech Frontier: Quantum Electrodynamics and Beyond\n\nThe most advanced branch of modern physics is *quantum electrodynamics* (QED), which unifies light and matter interactions in a tidy, renormalised framework. QED explains the *Breit\u2013Rabi* splitting we see in magnetic resonance and the *Bethe\u2013Salpeter* equation that describes bound states of particles.\n\nAnother front is the study of *anisotropic* media, where properties differ based on direction \u2013 a subtle but crucial detail for designing metamaterials. You also hear about *nonlinearity* at high-power laser levels, where waves interact and generate new frequencies.\n\nAnd there\u2019s the mysterious *plasmon*: a surface\u2011electromagnetic wave that couples with electrons on a metal surface, enabling devices like super\u2011resolution imaging.\n\nSo next time you flick a light switch, remember all this beautiful, mind\u2011bending physics that turns a simple act into a symphony of energy, motion, and quantum wonder.\n\n---\n\n### Bottom Line: Physics is All Around Us\n\nPhysics isn\u2019t just equations written on a chalkboard; it\u2019s the rhythm underlying a coffee's steam, a phone\u2019s buzz, and the moon\u2019s dance. Whether it\u2019s a ball rolling down a hill or qubits hovering in a lab, the language of *mass*, *energy*, *charge*, and *time* speaks continuously to our world. And while we still have mysteries like dark matter and the exact role of gravity in quantum theory, the adventure of discovery continues, and we\u2019re all invited to join the conversation.\n\n---\n\n**Have you ever paused to wonder what keeps your favorite song humming in the background? It\u2019s physics in action!**\n",
+        "vocabulary": {
+            "easy": [
+                "energy",
+                "force",
+                "mass",
+                "speed",
+                "light",
+                "heat",
+                "time"
+            ],
+            "meadium": [
+                "momentum",
+                "velocity",
+                "gravity",
+                "quantum",
+                "density",
+                "resonance",
+                "inertia"
+            ],
+            "hard": [
+                "superposition",
+                "entanglement",
+                "relativistic",
+                "coherence",
+                "decoherence",
+                "tunneling",
+                "plasmon"
+            ],
+            "very_hard": [
+                "quantum electrodynamics",
+                "topological",
+                "anisotropic",
+                "nonlinearity",
+                "hyperfine",
+                "Breit\u2013Rabi",
+                "Bethe\u2013Salpeter"
+            ]
+        }
+    },
+    {
+        "content": "## What\u2019s in the Quantum Cloud? \n\nEver notice how a single photon can feel at two places at once? The universe is throwing us a mind\u2011bending trickery called quantum mechanics. It\u2019s like an endless playground where the rules of the adult world bend, sometimes to a point that feels like magic. But trust me, it\u2019s all built on math, and that math is elegant, not messy. \n\n### Entanglement: The Cosmic Hangout \nPicture two friends walking through a crowded museum. They can\u2019t seem to decide which side of the exhibit to admire. In the quantum world, a pair of tiny particles might \u201ctalk\u201d faster than light can whisk a glance \u2013 they\u2019re entangled. One\u2019s spin might be up, the other down, but you don\u2019t know until you check. Once you look, the hidden spin flips to match, instantly, no matter how far apart they are. It\u2019s as if the particles share a secret, invisible thread. \n\nYou may wonder: how can anything happen faster than the speed of light? That\u2019s the puzzle that makes scientists both excited and a bit uneasy. The thread is not a physical object traveling; it\u2019s a correlation embedded in their shared quantum state. The law that forbids faster\u2011than\u2011light travel still holds because no usable information jumps faster than light \u2013 the thread simply changes the numbers in both spots. \n\n### The Strange Dance of Superposition \nWhen a quantum particle is in a box, it\u2019s not just one point in the box. It\u2019s *everypoint* that the box allows. That\u2019s superposition. Think of a spinning coin that\u2019s both heads and tails until you catch it. The coin\u2019s fate depends on how you look at it. After you catch it, it chooses a side, but until that moment, your coin exists as a flicker of possibilities. \n\nThe great irony is that you\u2019re forced to be a participant in the act of measurement. The observer is a player, not just a spectator. \n\n### Decoherence: The Quiet Enemy \nWhen we try to isolate a quantum system, we\u2019re basically asking: \u201cCan you keep your secrets in a noisy room?\u201d The universe is a noisy room. Each stray photon, cosmic ray, or vibration pulls the entangled or superposed state into a definite one. This process, called decoherence, is what turns quantum weirdness into ordinary reality. It\u2019s why we don\u2019t see Schr\u00f6dinger\u2019s cat both alive and dead in our living room. \n\n### The Future: Quantum Dreams \nFast forward to 2030, and quantum computers might be the smartest assistants we\u2019ve ever built. They could crack cryptography, predict protein folding, or even model the cosmos in ways that classical computers can\u2019t. \n\nIn the end, physics isn\u2019t just about equations; it\u2019s about stories of particles that laugh, dance, and sometimes refuse to obey the ordinary. The next time you wonder about the universe, remember the shy photon that knows two places, the secret threads that bind them, and the cosmic play that still amazes us.\n\n## A Quick Glossary of Cool Terms\n*Quantum mechanics \u2013 the study of the very small.*\n*Entanglement \u2013 a special, instantaneous pairing of particles.*\n*Superposition \u2013 a particle existing in multiple states at once.*\n*Decoherence \u2013 when the environment forces a quantum system into a single state.*\n *Quantum computing \u2013 next\u2011gen computers that harness quantum rules.*\n\nHope you felt a little *quantum glow* today!\n\n",
+        "vocabulary": {
+            "easy": [
+                "science",
+                "world",
+                "time",
+                "energy",
+                "light",
+                "matter",
+                "future"
+            ],
+            "meadium": [
+                "quantum",
+                "entanglement",
+                "superposition",
+                "probability",
+                "particle",
+                "state",
+                "observer"
+            ],
+            "hard": [
+                "decoherence",
+                "nonlocality",
+                "Bell's theorem",
+                "photon",
+                "plasmon",
+                "entanglement entropy",
+                "quantum teleportation"
+            ],
+            "very_hard": [
+                "quantum field theory",
+                "superselection",
+                "topological order",
+                "noncommutative",
+                "Hilbert space",
+                "Schr\u00f6dinger cat",
+                "quantum teleportation"
+            ]
+        }
+    },
+    {
+        "content": "## What\u2019s a Black Hole, Anyway?\n\nImagine a place that just about\u2026 no, it *isn't* just a place. It\u2019s a cosmic vacuum\u2011cleaner that sucks in light, whispers in the language of gravity, and rewrites the story of space and time. Black holes have been the star of science\u2011fiction epics, yet they\u2019re grounded in a neat little fact: when a massive star collapses, the core\u2019s gravity gets so intense that nothing\u2014no photon, no particle\u2014can escape. It\u2019s like having a giant, invisible sponge that devours everything that tries to float past.\n\n## The Spacetime Stretching Dance\n\nYou\u2019re probably thinking, \u201cI\u2019ve heard the term \u2018spacetime\u2019. What\u2019s that?\u201d Picture a rubber sheet. Drop a bowling ball on it, and the surface dips. The sheet itself is analogous to spacetime, and when you put a heavy object in the middle, spacetime curves around it. This curvature is what we feel as gravity. The greater the mass, the steeper the dip, which explains why a black hole is the ultimate curve\u2011maker. Light, which usually travels in straight lines, has to take a longer route around that huge depression, and if the curve is too steep, it becomes a one\u2011way street.\n\n## Event Horizon: The Point of No Return\n\nThe edge of a black hole\u2014called its event horizon\u2014is a slippery threshold. Once you get within that boundary, no information can escape. Think of it like the last exit on a busy highway that disappears as soon as you pass it. Beyond it, you enter the singularity, where the density of the core skyrockets to an infinity that current physics can\u2019t fully describe. Scientists are still probing whether this region is a mathematical curiosity or a real, physical phenomenon.\n\n## Why Should We Care?\n\nOkay, I get it: \u201cWhy do I need to know about a point that never lets anything go out?\u201d Well, black holes influence galactic evolution, sculpting stars and shaping the universe\u2019s growth. They\u2019re also a laboratory for testing the weirdest physics, from the clash between quantum mechanics and general relativity, to the puzzle of information loss. Plus, they\u2019re spectacularly beautiful, as shown by the first ever picture of their shadow captured by the Event Horizon Telescope. Imagine the thrill of looking at something that glows, even though everything inside is dark!\n\n## From Cosmic Giants to Everyday Gases\n\nThe beauty of physics\u2014especially when you mix it with everyday experiences\u2014is that the same forces governing black holes also make coffee, keep your phone charged, and let you skip. The same principle of energy conservation, momentum, and waves shows up in a kettle boiling or a violin vibrating. And that\u2019s the wonder: whether you\u2019re staring at a dark, far\u2011away abyss or sipping hot cocoa, the universe\u2019s language is consistent, simple, and endlessly fascinating.",
+        "vocabulary": {
+            "easy": [
+                "energy",
+                "force",
+                "mass",
+                "time",
+                "light",
+                "distance",
+                "gravity"
+            ],
+            "meadium": [
+                "velocity",
+                "acceleration",
+                "wave",
+                "particle",
+                "inertia",
+                "entropy",
+                "spacetime"
+            ],
+            "hard": [
+                "relativity",
+                "singularity",
+                "horizon",
+                "quantum",
+                "entanglement",
+                "tensor",
+                "curvature"
+            ],
+            "very_hard": [
+                "hyperbolic",
+                "nonlinear",
+                "baryonic",
+                "fermi",
+                "plasmonic",
+                "graviton",
+                "tachyon"
+            ]
+        }
+    }
+]
