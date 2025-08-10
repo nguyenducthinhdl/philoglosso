@@ -3,8 +3,9 @@
 # Define the base class for the LLM generator
 import json
 import os
-import openai
+from openai import OpenAI
 import re
+import requests
 
 
 class LLMGenerator:
@@ -23,7 +24,7 @@ class OpenAIGenerator(LLMGenerator):
 
     def execute(self, prompt: str) -> tuple[Exception, str]:
         try:
-            from openai import OpenAI
+    
             self.client = OpenAI(api_key=self.api_key)
             response = self.client.chat.completions.create(
                 model=self.model,
@@ -36,6 +37,31 @@ class OpenAIGenerator(LLMGenerator):
             print(f"OpenAI execution error: {e}")
             return e, None
 
+# Define class of OllamaLocal
+class OllamaLocalGenerator(LLMGenerator):
+    def __init__(self, model: str, api_key: str, temperature: float):
+        super().__init__(model, api_key, temperature)
+
+    def execute(self, prompt: str) -> tuple[Exception, str]:
+        try:
+            client = OpenAI(
+                base_url="http://localhost:11434/v1",  # Local Ollama API
+                api_key="ollama"                       # Dummy key
+            )
+            
+            response = client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt}
+                ]
+            )
+    
+            print(response.choices[0].message.content)
+            return None, response.choices[0].message.content
+        except Exception as e:
+            print(f"OllamaLocal execution error: {e}")
+            return e, None
 
 
 # Define the base class to generate the content
@@ -96,6 +122,7 @@ class ContentGenerator:
             
             # retry 2 times
             is_valid = False
+            error_message = ""
             for _ in range(2):
                 error, response = generator.execute(tmp_prompt)
                 if error is not None:
@@ -119,6 +146,10 @@ class ContentGenerator:
 
             # Add the response to the list
             responses.append(json.loads(response))
+
+        if not responses or len(responses) == 0:
+            print(f"No valid responses generated for topic: {self.topic}")
+            return
 
         # Save the response to the output file
         with open(self.output_file, 'a') as f:
