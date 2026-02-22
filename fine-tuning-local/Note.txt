@@ -1,0 +1,52 @@
+1. Vram calculator
+https://apxml.com/tools/vram-calculator
+
+2. MAC OS MLX 
+https://github.com/ml-explore/mlx
+
+3. Deepseek fine tune:
+- https://github.com/ben637482548/deepseek-r1-mac-finetuning-guide
+
+3.1 Finetuning by unsloth on MACOS
+# Install Xcode CLI tools if not already installed
+xcode-select --install
+
+# Install Homebrew if not present
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Miniforge3 for ARM64
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+sh Miniconda3-latest-MacOSX-arm64.sh
+source ~/miniforge3/bin/activate
+
+# Create new conda environment
+conda create -n deepseek python=3.11
+conda activate deepseek
+
+# Install PyTorch with Metal support
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
+
+# Install UnslothAI with Apple Silicon support
+brew install llvm 
+brew link llvm 
+export CC=/opt/homebrew/opt/llvm/bin/clang
+export CXX=/opt/homebrew/opt/llvm/bin/clang++
+pip install xformers 
+pip install "unsloth[apple-m3]"
+
+# Install Ollama
+brew install ollama
+
+# Install and run jupiter
+conda install jupyter notebook
+jupyter lab
+
+# Need to wait support MLX
+3.2 Finetuning by MLX
+- https://heidloff.net/article/apple-mlx-fine-tuning/
+ - cd max-mlx/mlx/mlx-examples/lora
+ - pip3 install -r requirements.txt
+- https://github.com/ml-explore/mlx-examples/blob/69181e00584976f717c27f90c7e009e70cc1b0bf/llms/mlx_lm/LORA.md
+
+
+
